@@ -10,22 +10,20 @@
 <%
 	//int count=3;
 %>
-
 <%
 	//int count=3;
 	for(int i=0;i<count;i++){
 		out.println("<h1>JSP 테스트"+i+"!<br>");//document.write(JSP 테스트)		
 	}
 	//out.println("count=>"+count); 표현식이 불가능
-
 %>
 출력할 변수 count:<%=count%>
 <%!
-	//선언문태그 => 현재 페이지의 위치에 상관없이 다 불러다 사용이 가능
-	                 
+	//선언문태그 => 현재 페이지의 위치에 상관없이 다 불러다 사용이 가능	                 
 	int count=3;
 %>
-수식계산:<%=(3+5) %>
-
+수식계산:<%=(3+5)%>
+<hr>
+수식계산2:<%=(3*5)%>
 </body>
 </html>
